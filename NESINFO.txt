@@ -1,0 +1,6 @@
+pass: admin	
+user admin
+
+xampp phpmyadmin
+port: 3306
+db name: pos_mvc
