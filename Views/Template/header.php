@@ -22,7 +22,7 @@
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg shadow-lg" style="background-color: #2c3e50;">
             <div class="container-fluid d-flex align-items-center justify-content-between">
                 <div class="navbar-header">
                     <input type="hidden" id="url" value="<?php echo base_url(); ?>">
@@ -34,7 +34,7 @@
                     <button class="sidebar-toggle"><i class="fas fa-arrow-alt-circle-left"></i></button>
                 </div>
                 <div class="right-menu list-inline no-margin-bottom">
-                    <h4 class="font-weight-light">Sistema de Venta <strong class="text-info">Bolivia, <?php echo date("d-M-Y") ?></strong></h4>
+                    <h4 class="font-weight-light text-white">Sistema de Venta <strong class="text-info">Bolivia, <?php echo date("d-M-Y") ?></strong></h4>
                 </div>
                 <!-- Log out               -->
                 <div class="list-inline-item logout">
@@ -46,7 +46,7 @@
     </header>
     <div class="d-flex align-items-stretch">
         <!-- Sidebar Navigation-->
-        <nav id="sidebar">
+        <nav id="sidebar" style="background-color: #2c3e50;">
             <!-- Sidebar Header-->
             <div class="sidebar-header d-flex align-items-center p-1">
                 <div class="avatar" data-toggle="modal" data-target="#cambiarPass"></div>

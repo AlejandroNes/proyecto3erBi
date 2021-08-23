@@ -3,7 +3,7 @@
 <div class="page-content bg-light">
     <div class="page-header bg-light">
         <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom">Datos de la Empresa</h2>
+            <h2 class="h5 no-margin-bottom">Datos de la Tienda</h2>
         </div>
     </div>
     <section>
@@ -25,14 +25,14 @@
                     </div>
                     <div class="card mt-3">
                         <div class="card-header">
-                            Datos de la Empresa
+                            Datos de la Tienda
                         </div>
                         <div class="card-body">
                             <form action="<?php echo base_url(); ?>/Configuracion/actualizar" method="post">
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <div class="form-group">
-                                            <label for="ruc">Ruc</label>
+                                            <label for="ruc">NIT</label>
                                             <input id="id" type="hidden" name="id" value="<?php echo $data['id']; ?>">
                                             <input id="ruc" class="form-control" type="text" name="ruc" value="<?php echo $data['ruc']; ?>">
                                         </div>

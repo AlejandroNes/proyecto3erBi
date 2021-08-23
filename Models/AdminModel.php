@@ -34,11 +34,5 @@ class AdminModel extends Mysql{
         $res = $this->selecT($sql);
         return $res;
     }
-    public function ventas()
-    {
-        $sql = "SELECT COUNT(*) FROM ventas WHERE fecha > CURDATE();";
-        $res = $this->selecT($sql);
-        return $res;
-    }
    
 }

@@ -16,12 +16,10 @@
             $prod = $this->model->productos();
             $cli = $this->model->clientes();
             $usu = $this->model->usuarios();
-            $ven = $this->model->ventas(); 
             $data = $prod['COUNT(*)'];
             $clientes = $cli['COUNT(*)'];  
             $usuarios = $usu['COUNT(*)'];
-            $ventas = $ven['COUNT(*)'];
-            $this->views->getView($this, "Listar", $data, $usuarios, $ventas, $clientes);
+            $this->views->getView($this, "Listar", $data, $usuarios, $clientes);
         }
         public function reportes()
         {

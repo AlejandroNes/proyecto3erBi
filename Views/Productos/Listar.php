@@ -1,5 +1,5 @@
 <?php encabezado() ?>
-<!-- Begin Page Content -->
+
 <div class="page-content bg-light">
     <section>
         <div class="container-fluid">

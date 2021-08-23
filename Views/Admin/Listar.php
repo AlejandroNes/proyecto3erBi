@@ -1,7 +1,7 @@
 <?php encabezado() ?>
 
 <!-- Sidebar Navigation end-->
-<div class="page-content bg-light">
+<div class="page-content" >
     <div class="page-header bg-light">
         <div class="container-fluid">
             <h2 class="h5 no-margin-bottom text-dark font-weight-light">Panel de Administración</h2>

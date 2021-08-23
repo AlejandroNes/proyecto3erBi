@@ -81,7 +81,7 @@
             <form method="post" action="<?php echo base_url(); ?>Clientes/insertar" autocomplete="off">
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="ruc">Ruc/Dni</label>
+                        <label for="ruc">NIT/ CI</label>
                         <input id="ruc" class="form-control" type="text" name="ruc" placeholder="Ruc/Dni">
                     </div>
                     <div class="form-group">
